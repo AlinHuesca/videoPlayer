@@ -1,0 +1,10 @@
+body{
+    background-color: lightblue;
+}
+.Video{
+    text-align: center;
+    inline-size: 90%;
+    margin: auto;
+    position: relative;
+    inline-size: 100%;
+}

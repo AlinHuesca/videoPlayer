@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+    
+  <html lang="en"> 
+  <head> 
+     <meta charset="utf-8"> 
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <link rel="stylesheet" href="src/css/estilo.css">
+     <script src="src/js/index.js"></script>
+     <title>Reproducto de video</title> 
+  </head> 
+  <body> 
+
+  <div> 
+    
+      <h1> Reproductor de video </h1> 
+        
+          <Video class="Video" width="520" height="440" controls> 
+              <source src="src/video/hola.mp4" type="video/mp4"> 
+              <source src="src/video/hola.mp4" type="video/ogg"> 
+                            
+          </Video> 
+          <div>
+              <button onclick="playPause()">&#9658;/||</button>
+              <button onclick="stop()">&#9726;</button>
+              <button onclick="skip(-10)">&lt;&lt;</button>
+              <button onclick="skip(10)">&gt;&gt;</button>
+          </div>
+    
+  </div>       
+  </body> 
+</html>
